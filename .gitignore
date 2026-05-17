@@ -6,6 +6,6 @@ dist/
 wheels/
 *.egg-info
 .env
-
+PLAN.md
 # Virtual environments
 .venv

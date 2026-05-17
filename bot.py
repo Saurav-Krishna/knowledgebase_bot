@@ -8,7 +8,7 @@ from telegram.ext import Application, MessageHandler, CommandHandler, filters, C
 
 load_dotenv()
 
-TOKEN = os.environ["TELEGRAM_TOKEN"]
+TOKEN = os.environ["TEL_BOT_TOKEN"]
 ALLOWED_CHAT_ID = int(os.environ["ALLOWED_CHAT_ID"])
 INBOX_PATH = Path(os.environ["INBOX_PATH"])
 INBOX_PATH.parent.mkdir(parents=True, exist_ok=True)

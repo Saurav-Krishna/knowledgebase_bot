@@ -6,5 +6,6 @@ readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
     "python-dotenv>=1.2.2",
+    "python-telegram-bot>=22.7",
     "telegram>=0.0.1",
 ]
